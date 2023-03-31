@@ -8,6 +8,7 @@ import Menu from './UseParams/Menu';
 import Routing from './UseParams/Routing';
 import Product from './Props/Product';
 import User from './Props/User';
+import UseStateHooks1 from './UseStateHooks/UseStateHooks1';
 
 function App() {
   return (
@@ -27,8 +28,9 @@ function App() {
   
 
   {/* <Product name="Shirt" Student={{name:"Raju",email:"raju@gmail.com"}}  /> */}
-  <User/>
+  {/* <User/> */}
   
+  <UseStateHooks1/>
     
     </>
   );
