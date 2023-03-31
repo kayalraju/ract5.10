@@ -9,6 +9,8 @@ import Routing from './UseParams/Routing';
 import Product from './Props/Product';
 import User from './Props/User';
 import UseStateHooks1 from './UseStateHooks/UseStateHooks1';
+import ArrayOfObject from './UseStateHooks/ArrayOfObject';
+import ObjectHooks from './UseStateHooks/ObjectHooks';
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
   {/* <Product name="Shirt" Student={{name:"Raju",email:"raju@gmail.com"}}  /> */}
   {/* <User/> */}
   
-  <UseStateHooks1/>
+  {/* <UseStateHooks1/> */}
+  {/* <ArrayOfObject/> */}
+  <ObjectHooks/>
     
     </>
   );
