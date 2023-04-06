@@ -6,16 +6,24 @@ import Home from './Page/Home';
 import PageNotFound from './UseParams/PageNotFound';
 import Menu from './UseParams/Menu';
 import Routing from './UseParams/Routing';
-import Product from './Props/Product';
 import User from './Props/User';
 import UseStateHooks1 from './UseStateHooks/UseStateHooks1';
 import ArrayOfObject from './UseStateHooks/ArrayOfObject';
 import ObjectHooks from './UseStateHooks/ObjectHooks';
+import FormReactBootstrap from './Page/FormReactBootstrap';
+import TimerHooks from './useEffect/TimerHooks';
+import FetchApi from './useEffect/FetchApi';
+import PopupModel from './Page/PopupModel';
+import BootstrapReact from './ReactBoostrap/BootstrapReact';
+
+
 
 function App() {
   return (
     <>
-    {/* <Router>
+    {/* <FormReactBootstrap/> */}
+ {/* <PopupModel/>
+    <Router>
       <Navbar/>
       <Routes>
        <Route  path='/' element={<Home/>}/>
@@ -23,18 +31,22 @@ function App() {
        <Route path='*' element={<PageNotFound/>}/>
       </Routes>
       <Footer/>
-    </Router> */}
+    </Router>  */}
     
-  {/* <Routing/> */}
+  {/* <Routing/>
 
-  
-
-  {/* <Product name="Shirt" Student={{name:"Raju",email:"raju@gmail.com"}}  /> */}
   {/* <User/> */}
   
   {/* <UseStateHooks1/> */}
   {/* <ArrayOfObject/> */}
-  <ObjectHooks/>
+  {/* <ObjectHooks/> */}
+  {/* <TimerHooks/> */}
+  {/* <FetchApi/> */}
+  
+  {/* <User/> */}
+ 
+<BootstrapReact/>
+
     
     </>
   );
