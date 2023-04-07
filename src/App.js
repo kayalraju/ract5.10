@@ -15,6 +15,7 @@ import TimerHooks from './useEffect/TimerHooks';
 import FetchApi from './useEffect/FetchApi';
 import PopupModel from './Page/PopupModel';
 import BootstrapReact from './ReactBoostrap/BootstrapReact';
+import FetchAxiosData from './Axios/FetchAxiosData';
 
 
 
@@ -45,7 +46,8 @@ function App() {
   
   {/* <User/> */}
  
-<BootstrapReact/>
+{/* <BootstrapReact/> */}
+<FetchAxiosData/>
 
     
     </>
