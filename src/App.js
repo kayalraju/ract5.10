@@ -18,6 +18,7 @@ import BootstrapReact from './ReactBoostrap/BootstrapReact';
 import FetchAxiosData from './Axios/FetchAxiosData';
 import FetchPhoto from './Axios/FetchPhoto';
 import AxiosRouting from './Axios/AxiosRouting';
+import Memo from './Memo/Memo';
 
 
 
@@ -50,8 +51,9 @@ function App() {
  
 {/* <BootstrapReact/> */}
 {/* <FetchAxiosData/> */}
-<AxiosRouting/>
+{/* <AxiosRouting/> */}
 
+<Memo/>
     
     </>
   );
