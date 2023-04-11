@@ -16,6 +16,8 @@ import FetchApi from './useEffect/FetchApi';
 import PopupModel from './Page/PopupModel';
 import BootstrapReact from './ReactBoostrap/BootstrapReact';
 import FetchAxiosData from './Axios/FetchAxiosData';
+import FetchPhoto from './Axios/FetchPhoto';
+import AxiosRouting from './Axios/AxiosRouting';
 
 
 
@@ -47,7 +49,8 @@ function App() {
   {/* <User/> */}
  
 {/* <BootstrapReact/> */}
-<FetchAxiosData/>
+{/* <FetchAxiosData/> */}
+<AxiosRouting/>
 
     
     </>
