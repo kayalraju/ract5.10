@@ -19,6 +19,7 @@ import FetchAxiosData from './Axios/FetchAxiosData';
 import FetchPhoto from './Axios/FetchPhoto';
 import AxiosRouting from './Axios/AxiosRouting';
 import Memo from './Memo/Memo';
+import RoutingContex from './Contex/ContexRouting/RoutingContex';
 
 
 
@@ -53,8 +54,9 @@ function App() {
 {/* <FetchAxiosData/> */}
 {/* <AxiosRouting/> */}
 
-<Memo/>
+{/* <Memo/> */}
     
+    <RoutingContex/>
     </>
   );
 }
