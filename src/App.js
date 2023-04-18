@@ -20,6 +20,9 @@ import FetchPhoto from './Axios/FetchPhoto';
 import AxiosRouting from './Axios/AxiosRouting';
 import Memo from './Memo/Memo';
 import RoutingContex from './Contex/ContexRouting/RoutingContex';
+import Student from './ClassBaseComponent/Student';
+import UpdateState from './ClassBaseComponent/UpdateState';
+
 
 
 
@@ -56,7 +59,10 @@ function App() {
 
 {/* <Memo/> */}
     
-    <RoutingContex/>
+    {/* <RoutingContex/> */}
+
+  {/* <Student/> */}
+  <UpdateState/>
     </>
   );
 }
