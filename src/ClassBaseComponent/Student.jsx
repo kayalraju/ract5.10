@@ -8,6 +8,7 @@ export default class Student extends Component {
 
 
   render() {
+
     return (
       <div>
         <h1>This Is a Class component</h1>
@@ -15,5 +16,6 @@ export default class Student extends Component {
         <h1>Name : {this.state.phone}</h1>
       </div>
     )
+    
   }
 }
