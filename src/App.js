@@ -23,6 +23,7 @@ import RoutingContex from './Contex/ContexRouting/RoutingContex';
 import Student from './ClassBaseComponent/Student';
 import UpdateState from './ClassBaseComponent/UpdateState';
 import ReducerCount from './UseReducer/ReducerCount';
+import Routingss from './Crud/Routingss';
 
 
 
@@ -64,7 +65,8 @@ function App() {
 
   {/* <Student/> */}
   {/* <UpdateState/> */}
-  <ReducerCount/>
+  {/* <ReducerCount/> */}
+  <Routingss/>
     </>
   );
 }
