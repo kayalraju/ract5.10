@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {Link}from 'react-router-dom'
 import { deleteUser, getUsers } from '../Service/Api'
+import { toast } from 'react-toastify'
 
 
 const Home = () => {
@@ -18,6 +19,9 @@ const Home = () => {
 //delete user
 const deleteUserData = async id => {
   await deleteUser(id)
+  toast.error("Data delete successfully !", {
+    position: toast.POSITION.TOP_CENTER
+  });
   getUsersDetails()
 }
   return (

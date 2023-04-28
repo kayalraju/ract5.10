@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Editdata, UpdateUser } from '../Service/Api'
+import { toast } from 'react-toastify'
 
 const initialValues = {
     name: '',
@@ -94,6 +95,7 @@ const Edit = () => {
     //update data 
     const UpdateUserData = async () => {
         await UpdateUser(user, id)
+        toast.info('user Update successfully')
         navigate('/')
     }
 
